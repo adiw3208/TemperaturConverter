@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+:root {
+  --dark: #333;
+  --light: #fff;
+}
+.dark {
+  --dark: #fff;
+  --light: #333;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  overflow: hidden;
+  border: none;
+  transition: 1s all ease-in-out;
+  -webkit-transition: 1s all ease-in-out;
+  -moz-transition: 1s all ease-in-out;
+  -ms-transition: 1s all ease-in-out;
+  -o-transition: 1s all ease-in-out;
+}
+body {
+  background: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: var(--dark);
+}
+.container {
+  padding: 2rem 4rem;
+  margin: 2rem 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#switchTheme {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  cursor: pointer;
+  background: var(--dark);
+  color: var(--light);
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+  text-transform: uppercase;
+}
+.form {
+  position: relative;
+  max-width: 360px;
+  margin: 1rem auto;
+  padding: 45px;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.formInput {
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.formInput button {
+  width: 100%;
+  margin: 0.3rem 0;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background: var(--dark);
+  color: var(--light);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  text-transform: uppercase;
+}
+.formInput input {
+  background: var(--light);
+  color: var(--dark);
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 0.5px solid var(--dark);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+table {
+  background: var(--light);
+  color: var(--dark);
+
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+th {
+  background: var(--dark);
+  color: var(--light);
+  padding: 0.5rem 2rem;
+}
+td {
+  background: var(--light);
+  color: var(--dark);
+  padding: 0.5rem 2rem;
+}
